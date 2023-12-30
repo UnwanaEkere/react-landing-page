@@ -1,0 +1,38 @@
+.FormGeneral{
+    display: flex;
+    background-color: rgba(213, 207, 207, 0.839);
+    width: fit-content;
+    margin: auto;
+    padding: 20px 20px;
+    margin-top: 30px;
+}
+
+.username{
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+}
+.password{
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.checkbox{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+#usernameinputbox,#passwordinputbox{
+    width: 270px;
+    padding: 5px 0px;
+    border: none;
+    border-radius: 3px;
+}
+.eyeicon{
+    position: absolute;
+    top: 22px;
+    left: 240px;
+    cursor: pointer;
+}
